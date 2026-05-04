@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(void)
 {
@@ -18,7 +17,7 @@ int main(void)
       }
     }
   }
-  if(check == false){
+  if(!check){
     printf("none");
   }
   
